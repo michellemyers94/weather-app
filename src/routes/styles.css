@@ -7,6 +7,18 @@ body {
     text-align: center;
 }
 
+div.weather-block {
+    background-color: rgba(143, 182, 190, 0.7);
+    padding: 2% 0 2% 0;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 5%;
+}
+
+.search-bar {
+    margin-bottom: 5%;
+}
+
 h1 {
     font-size: 8vmin;
     color: mintcream;
@@ -17,6 +29,36 @@ h2 {
     color: #484848;
 }
 
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+    padding: 0 2% 0 2%;
+    font-size: 2.5vmin;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+p.degrees{
+
+    font-size: 8vmin;
+    margin: 0 auto;
+}
+
+p.weather-text, p.city-name {
+    margin: 0 auto;
+    font-size: 5vmin;
+}
+
+p.time{
+    color: white;
+    font-size: 3vmin;
+    text-shadow: 1px 1px 5px #484848;
+}
 
 input[type=text]{
     -webkit-border-radius: 20px;
@@ -31,4 +73,8 @@ input[type=text]:focus{
     outline: none;
     border: 1px solid #a0d18c;
     color: #2d9fd9;
+}
+
+img {
+    width: 15%;
 }
